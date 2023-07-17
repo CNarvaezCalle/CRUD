@@ -30,6 +30,7 @@ function App() {
   console.log(users)
 
   return (
+    /* first-branch */
     <div className='wrapper'>
       <div className='header'>
       <h1 className='title'>Users</h1>
@@ -50,7 +51,6 @@ function App() {
               key={user.id}
               user={user}
               deleteUserById={deleteUserById}
-              // updateUserById={updateUserById}
               setUpdateInfo={setUpdateInfo}
               handleOpenForm={handleOpenForm}
             />
