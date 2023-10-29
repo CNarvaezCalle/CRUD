@@ -9,7 +9,7 @@ function App() {
   const [updateInfo, setUpdateInfo] = useState()
   const [closeForm, setCloseForm] = useState(true)
   
-  const baseUrl = "https://users-crud.academlo.tech"
+  const baseUrl = "https://user-crud-backend-dev-mnhp.3.us-1.fl0.io"
 
 
   const handleOpenForm = () => {
